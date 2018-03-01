@@ -468,3 +468,20 @@ footer {
 .post-3{
   transform: translate(-100px, 20px);
 }
+
+
+/* =====================Banner========================== */
+
+.banner {
+  height: 200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+}
+
+.banner img {
+  width: 100%;
+}
+
+/* =====================End of Banner========================== */
