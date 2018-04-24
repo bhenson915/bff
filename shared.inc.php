@@ -8,8 +8,8 @@ $nav = "<nav class='navigation'>
   </ul>
   <a href='index.php'><img class='logo' src='img/BFF-Logo.png' alt='BFF Asian Bar and Grill logo'></a>
   <ul class='nav-list'>
-    <li class='link'><a href='about.php'>GIFT CARDS</a></li>
-    <li class='link'><a href='locations.php'>FRANCHISE</a></li>
+    <li class='link'><a href='about.php'>ABOUT US</a></li>
+    <li class='link'><a href='locations.php'>LOCATIONS</a></li>
     <li class='link'><a href='contact.php'>CONTACT</a></li>
   </ul>
 </nav>";

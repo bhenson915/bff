@@ -96,9 +96,9 @@ button:hover {
 /*=========== Navigation ===========*/
 
 .logo {
-  max-width: 90px;
-  max-height: 90px;
-  margin: 0 1.5em;
+  max-width: 80px;
+  max-height: 80px;
+  margin: 0;
   padding: 0;
 }
 
@@ -107,7 +107,7 @@ button:hover {
   justify-content: center;
   align-items: center;
   font-weight: 400;
-  padding: 0.5em 2em;
+  padding: 1em;
   background-color: #142440;
   color: #ffffff;
   border-bottom: 2px solid #DAAC27;
@@ -119,7 +119,7 @@ button:hover {
 
 .link a:hover {
   color: #DAAC27;
-  border-bottom: 1px solid #dAAC27;
+  border-bottom: 2px solid #dAAC27;
 }
 .nav-list {
   display: flex;
@@ -127,7 +127,7 @@ button:hover {
 }
 
 .link {
-  margin: 0 1.5em;
+  margin: 1em;
 }
 
 /*=========== End of Navigation ===========*/
@@ -147,7 +147,6 @@ button:hover {
 /* Hide the images by default */
 .mySlides {
     display: none;
-    height: 100%;
 
 }
 
@@ -468,20 +467,3 @@ footer {
 .post-3{
   transform: translate(-100px, 20px);
 }
-
-
-/* =====================Banner========================== */
-
-.banner {
-  height: 200px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0;
-  overflow: hidden;
-}
-
-.banner img {
-  width: 100%;
-}
-
-/* =====================End of Banner========================== */

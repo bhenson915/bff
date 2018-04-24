@@ -25,9 +25,6 @@
 		</div>
 
 		<div id="London" class="tabcontent">
-		<div class="banner">
-			<img src="img/menu/BFF-Pot-Sticker-1024x749.jpg" alt="5 Spice Chicken dish from BFF Asian Grill and Sports Bar" class="banner-img">
-		</div>
 		  <h1>APPETIZERS</h1>
 		  <p>
 				<h3>1A. CALAMARI (Best Seller) 10.95</h3>
