@@ -130,6 +130,14 @@ button:hover {
   margin: 1em;
 }
 
+.icon {
+  color: #DAAC27; 
+}
+
+.icon img{
+  height: 50px;
+}
+
 /*=========== End of Navigation ===========*/
 
 /*=========== Carousel ===========*/
@@ -274,10 +282,6 @@ footer {
   background-repeat: no-repeat;
   background-position: top right;
   border-top: 2px solid #DAAC27;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
-
-
 
   display: flex;
   display: -webkit-flex;
@@ -356,12 +360,24 @@ footer {
   -webkit-flex-basis: 35%;
 }
 
+.footer-subscribe input {
+  padding: .5em;
+  margin: .5em 0;
+}
+
 .footer-subscribe strong {
   color: #DAAC27;
 }
 
 .footer-subscribe .btn-1 {
-  color: white;
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 16px;
+  padding: 1em 2em;
+  background-color: #142440;
+  border: 1px solid #DAAC27;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .footer-subscribe .btn-1:hover {

@@ -12,7 +12,7 @@
   <title>BFF Asian Grill and Sports Bar</title>
 
   <link rel="stylesheet" href="css/style.css">
-	<script src="jquery-3.3.1.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
 </head>
 <body>
@@ -108,5 +108,3 @@
 	<script src="js/main.js" charset="utf-8"></script>
 </body>
 </html>
-BEEF STEW
-BEEF STEW

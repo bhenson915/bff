@@ -54,7 +54,7 @@ $footer = "<footer>
         <form>
           <div class='form-group'>
             <input type='email' id='email' class='form-control' placeholder='Email'/><br>
-            <a href='success.html' class='btn-1'>Subscribe</a>
+            <button><a href='success.html'>Subscribe</a></button>
           </div>
         </form>
       </div>
