@@ -93,6 +93,20 @@ button:hover {
 
 /*=========== End of Reset and Basic Structure ===========*/
 
+/*=========== Colored Backgrounds =============*/
+
+.blue {
+  background: #142440;
+  color: #ffffff;
+  border: 1px solid #DAAC27;
+}
+
+.yellow {
+  background: #DAAC27;
+  color: #142440;
+  border: 1px solid #142440;
+}
+
 /*=========== Grid ===================*/
 .flex-grid {
   display: flex;
@@ -136,8 +150,9 @@ button:hover {
   content: '';
 }
 
-.row + .row {
+.row {
   margin-top: 0;
+  display: flex;
 }
 
 [class^="col-"] {
@@ -388,6 +403,15 @@ button:hover {
   box-shadow: 5px 10px 18px #888888;
 }
 
+.feature-padding {
+  padding: 3em;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
 /* ========================= Footer ========================================= */
 
 footer {

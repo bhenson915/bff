@@ -16,6 +16,20 @@
 <body>
 	<?php echo $nav ?>
 
+  <div class="container">
+    <div class="wrapper center">
+      <div class="row">
+        <div class="col blue">
+          <img src="img/menu/BFF-Raindow-Roll-1024x647.jpg" alt="" class="circle-img">
+        </div>
+        <div class="col">
+          <h1>About Us</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quae facilis consequatur quos repellat aliquam pariatur ad voluptas obcaecati placeat!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
   <?php echo $footer ?>
 
