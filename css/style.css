@@ -101,10 +101,18 @@ button:hover {
   border: 1px solid #DAAC27;
 }
 
+.blue-text {
+  color: #114422;
+}
+
 .yellow {
   background: #DAAC27;
   color: #142440;
   border: 1px solid #142440;
+}
+
+.yellow-text {
+  color: #dAAC27;
 }
 
 /*=========== Grid ===================*/
@@ -662,3 +670,34 @@ label {
   width: 100%;
 }
 
+
+/* =========Beer list =========*/
+
+.beer-list-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 1em 0;
+}
+
+.beer-image {
+  margin-right: 2em;
+}
+
+.beer-list-title{
+  display: flex;
+  align-items: baseline;
+}
+
+.caption {
+  margin-left: 1em;
+}
+
+.beer-list-title h3{
+  margin: 0;
+}
+
+.beer-list-cost {
+  font-weight: 700;
+}
