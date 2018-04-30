@@ -35,12 +35,14 @@
     </div>
     <div class="mySlides fade">
       <video width="100%" autoplay muted loop>
-      <source src="video\Sushi - 11291.mp4" type="video/mp4">
+      <source src="video\beer.mp4" type="video/mp4">
       </video>
     </div>
 
     <div class="mySlides fade">
-      <img src="img/hero3.jpg" style="width:100%">
+      <video width="100%" autoplay muted loop>
+        <source src="video\plate delivery.mp4" type="video/mp4">
+      </video>
     </div>
 
     <!-- Next and previous buttons -->
@@ -56,7 +58,8 @@
     <span class="dot" onclick="currentSlide(3)"></span>
   </div>
 
-  <main class="feature-container">
+  <main class="container">
+    <div class="wrapper">
 	    <h1>RESTAURANT HAPPENINGS</h1>
 	    <div class="feature-links">
 
@@ -75,7 +78,8 @@
 	        <a href="giftcard.php"><img src="img/hero4.jpg" alt=""></a>
 	      </div>
 
-	    </div>
+      </div>
+    </div>
   </main>
 
   <div class="container">
