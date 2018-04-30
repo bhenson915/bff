@@ -42,7 +42,7 @@ $footer = "<footer>
           <div class='footer-links'>
             <ul>
               <li><strong>FOLLOW US</strong></li>
-              <li>
+              <li class="contact-links">
                 <a href='https://www.facebook.com/BFFnewlocation/'><i class="fab fa-facebook-square"></i></a>
                 <a href='https://www.instagram.com/explore/locations/465609885/bff-asian-grill-sports-bar-n-arlington/'><i class="fab fa-instagram"></i></a>
               </li>
@@ -51,19 +51,18 @@ $footer = "<footer>
           <div class='footer-links'>
             <ul>
               <li><strong>POPULAR LINKS</strong></li>
-              <li><a href='beer.php'>Drink Specials</li>
-              <li><a href='menu.php'>Menu</li>
-              <li><a href='locations.php'>Locations</li>
+              <li class="contact-links"><a href='beer.php'>Drink Specials</li>
+              <li class="contact-links"><a href='menu.php'>Menu</li>
+              <li class="contact-links"><a href='locations.php'>Locations</li>
             </ul>
           </div>
           <div class='footer-links'>
             <ul>
-              <li><strong>LOCATIONS</strong></li>
-              <li><a href='https://www.google.com/maps/place/E.E.+Davis+Hall,+701+S+Nedderman+Dr,+Arlington,+TX+76019/@32.729186,-97.1174127,17z/data=!3m1!4b1!4m5!3m4!1s0x864e7d12c7db6fc1:0x665a7cd85702867e!8m2!3d32.7292117!4d-97.1151971' target='_blank'>Arlington<br>
-              701 S Nedderman Dr, <br>
-              Arlington, TX 76019</a><br>
-              <a href='mailto:info@fishcreek.com?Subject=Hello%20again' target='_top'>info@fishcreek.com</a><br>
-              <a href='tel:817.568.2000'>817.568.2000</a></li>
+              <li><strong>LOCATION</strong></li>
+              <li>
+              2150 E. Lamar Blvd. #100<br>
+              Arlington, TX 76006<br>
+              <a href='tel:817.385.0760'>(817)385-0760</a></li>
 
             </ul>
 
