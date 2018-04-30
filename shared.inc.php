@@ -48,9 +48,6 @@ $nav = "
         <a href='giftcards.php'><i class='fab fa-instagram fa-lg fa-fw'></i></a>
         
         <a href='tel: 817-385-0760'>|  (817) 385-0760</a>
-        <div id='login' >
-          <?php echo $message ?>
-        </div>
     </div>
   </div>
 </div>
