@@ -757,10 +757,6 @@ tr td {
   border: 1px solid #666666;
 }
 
-tbody tr:hover {
-  background: lightblue;
-}
-
 
 
 =======
@@ -850,7 +846,7 @@ table tr {
 
 
 .franchise  {
-  height: 400px;
+  height: 350px;
   width: auto;
   background-repeat: no-repeat;
   text-align: center;
@@ -858,15 +854,37 @@ table tr {
 
 }
 
-.text-1  {
-  text-shadow: #FC0 1px 0 10px;
-  font-size: 55px;
+
+@media only screen and (min-width: 320px) and (max-width: 1200px) {
+    .franchise {
+      height: auto;
+    }
+    #franchise-img  {
+      height: auto;
+      width: auto;
+      background-size: contain;
+    }
+
 }
 
 
+.text-1  {
+  text-shadow: #FC0 1px 0 10px;
+  font-size: 45px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    .text-1 {
+      font-size: 25px;
+    }
+}
+
+
+
 .franchise-text  {
+  color: white;
   position: absolute;
-  top: 65%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -878,6 +896,7 @@ table tr {
 
 .franchise-table td, th {
   padding: 8px 15px;
+  border: none;
 }
 
 .franchise-table th {
@@ -892,24 +911,92 @@ table tr {
   border-left: 1px solid #F5F5F5;
   border-right: 1px solid #F5F5F5;
   margin: 0 auto;
-  width: 1100px;
+  width: auto;
 }
 
 .franchise-table tr:nth-child(odd) {
   background-color: #F5F5F5;
 }
 
+.franchise-table tr:nth-child(even) {
+  background-color: white;
+}
+
 caption {
   font-size: 37px;
-  border-bottom: 1px solid #F5F5F5;
 }
 
 
 .franchise-form {
-  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: auto;
+  height: auto;
+  justify-content: center;
 }
 
-.toggle-click  {
+
+.franchise-form textarea{
+  font-family: 'Montserrat', Arial, sans-serif;
+  background: #fff;
+  width: 100%;
+  height: 30px;
+  letter-spacing: -.025em;
+  padding: 1em;
+  margin: 1em 0;
+  border: 1px solid #666666;
+  border-radius: 5px;
+}
+
+.franchise-form input {
+  font-family: 'Montserrat', Arial, sans-serif;
+  padding: 1em;
+  border-radius: 5px;
+  margin: 1em 1em;
+  border: 1px solid #666666;
+}
+
+.franchise-form .column  {
+  width: 400px;
+  margin: 3px;
+}
+
+.franchise-form input.radio  {
+  width: 3px;
+}
+
+.franchise-form input.submit-button {
+  width: 200px;
+  color: white;
+  background-color: #DAAC27;
+  border: none;
+}
+
+.franchise-form input.submit-button:hover {
+  color: #DAAC27;
+  background-color: white;
+  border: 1px solid #DAAC27;
+}
+
+.column1 {
+  padding: 15px;
+}
+
+
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+
+.collapsible  {
   text-align: center;
   background-color: #DAAC27;
   color: white;
@@ -918,7 +1005,7 @@ caption {
   border-bottom: 1px solid white;
 }
 
-.toggle-click:hover {
+.collapsible:hover {
   background-color: white;
   color: #DAAC27;
   border: 1px solid #DAAC27;
@@ -930,6 +1017,11 @@ caption {
     background-color: coral;
     color: white;
     font-size: 25px;
+}
+
+
+.onclick  {
+  margin: 0px 0px 30px;
 }
 
 
@@ -951,9 +1043,9 @@ caption {
 .modal-content {
     background-color: #fefefe;
     margin: 15% auto;
-    padding: 20px;
+    padding: 50px;
     border: 1px solid #888;
-    width: 80%;
+    width: 50%;
 }
 
 
@@ -978,5 +1070,17 @@ caption {
   justify-content: center;
   -webkit-justify-content: center;
 }
+
+
+.content, .content p {
+  text-indent: 1em;
+  background-color: white;
+  text-align: center;
+  padding: 6px 0px;
+
+}
+
+
+
 
 /* =====================End of Franchise========================== */

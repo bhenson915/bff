@@ -19,20 +19,20 @@
 	<div class="wrapper">
 
 
-	<div class="franchise"><img src="img/BFF-Exterior-Background.jpg" alt="bff, arlington" style="width:100%; opacity: 0.8;"><div class="franchise-text"><h1 class="text-1">Franchise Opportunities</h1></div></div>
+	<div class="franchise"><img src="img/BFF-Exterior-Background.jpg" alt="bff, arlington"  id ="franchise-img" style="width:100%; opacity: 0.8;"><div class="franchise-text"><span class="text-1">Franchise Opportunities</span></div></div>
 
+<div class="onclick">
 
-	<div onclick="myFunction()" class="toggle-click">OUR PHILOSOPHY TO SUCCESS</div>
+	<div class="collapsible">OUR PHILOSOPHY TO SUCCESS</div>
+		<div class="content">
+		  <p>Our philosophy to success revolves around our main priorities.  Our First &amp; Foremost priority is quality.  If you’ve visited our establishment you’ll understand the acronym BFF can stand for so much.  We understand that the trend in the food industry has driven the consumer to seek new experiences.  We offer our patrons the ability to try new things and feel comfortable through quality entrees, the best service &amp; amenities.  BFF stands for the best food for friends & family.  Whether you’d like to sit outdoors and enjoy one of the may draught beers while reading a book or simply take in the nice weather with a cup of joe, ALL are welcome.</p>
+		</div>
 
-	<div id="myDIV">
-	Our philosophy to success revolves around our main priorities.  Our First &amp; Foremost priority is quality.  If you’ve visited our establishment you’ll understand the acronym BFF can stand for so much.  We understand that he trend in the food industry has driven the consumer to seek new experiences.  We offer our patrons the ability to try new things and feel comfortable through quality entrees, the best service &amp; amenities.  BFF stands for the best food for friends & family.  Whether you’d like to sit outdoors and enjoy one of the may draught beers while reading a book or simply take in the nice weather with a cup of joe, ALL are welcome.
-	</div>
-
-	<div onclick="myFunc()" class="toggle-click">HOW MUCH WILL IT COST?</div>
-
-	<div id="myDIV2">
-	The Initial Franchise Fee is $35,000 for the first restaurant. There is a franchise fee discount for additional restaurants if you enter into a multi-unit Development Agreement. The estimated total cost of opening your very own BFF is $613,000 to $1,137,500. Please take a look at our chart for more details. If you have any questions, send us a message or fill out our questionnaire to begin the process. For more information, check out our F.A.Q.
-	</div>
+	<div class="collapsible">HOW MUCH WILL IT COST?</div>
+		<div class="content">
+  		<p>The Initial Franchise Fee is $35,000 for the first restaurant. Franchise fee discount is available for additional restaurants if you enter into a multi-unit Development Agreement. The estimated total cost of opening your very own BFF is $613,000 to $1,137,500. Please review our chart for more details. If you have any questions, send us a message or fill out our questionnaire to begin the process. For more information, check out our F.A.Q.</p>
+		</div>
+</div>
 
 
 	<table class="franchise-table">
@@ -182,13 +182,32 @@
 				<span class="close">&times;</span>
 
 	<div class="franchise-form">
-		<form action="/action_page.php">
-				<input type="text" name="firstname" value="First Name *">
-				<input type="text" name="lastname" value="Last Name *"><br>
-				<input type="text" name="address" value="Address *"><br>
-				<input type="text" name="streetAddress" value="Street Address"><br>
-				<input type="text" name="city" value="City"><br>
-				State:
+		<form action="post.php" method="post">
+			<caption><h2><strong>Franchise Information Request Form</strong></h2></caption>
+			<div class="row">
+				<div class="column">
+					<input type="text" name="firstname" placeholder="First Name *" required="required">
+				</div>
+				<div class="column">
+					<input type="text" name="lastname" placeholder="Last Name *" required="required">
+				</div>
+			</div>
+			<div class="row">
+				<div class="column">
+					<input type="text" name="address" placeholder="Address *" required="required"><br>
+				</div>
+			</div>
+			<div class="row">
+				<div class="column">
+					<input type="text" name="streetAddress" placeholder="Street Address">
+				</div>
+			</div>
+			<div class="row">
+				<div class="column">
+					<input type="text" name="city" placeholder="City">
+				</div>
+				<div class="column1">
+					State:
 					<select id="state" name="state">
 						<option value="Alabama">Alabama</option>
 						<option value="Alaska">Alaska</option>
@@ -240,30 +259,73 @@
 						<option value="WestVirginia">West Virginia</option>
 						<option value="Wisconsin">Wisconsin</option>
 						<option value="Wyoming">Wyoming</option>
-			</select><br>
-			<input type="text" name="zipcode" value="Zip Code"><br>
-			<input type="text" name="Phone" value="Phone *"><br>
-			<input type="text" name="Email" value="Email *"><br>
-			Are you interested in a single store or multiple locations? * <br>
-			<input type="radio" name="location">Single<br>
-			<input type="radio" name="location">Multiple<br>
-			Possible Location or Locations? *<br>
-			<textarea row="4" cols="50">
-			</textarea><br>
-			Projected Date of Opening? *<br>
-			<input type="text" name="date" value="--/--/----"><br>
-			What is your approximate net worth? *<br>
-			<input type="text" name="networth" value=""><br>
-			Who would operate your franchise on a day-to-day basis? *<br>
-			<input type="text" name="operate" value=""><br>
-			What are you looking for in a franchise opportunity?<br>
-			<textarea row="4" cols="50">
-			</textarea><br>
-			Tell us about your past or current relevant business experience.<br>
-			<textarea row="4" cols="50">
-			</textarea><br>
+				</select>
+			</div>
+		</div>
 
-			<input type="submit" value="Submit">
+			<div class="row">
+				<div class="column">
+					<input type="text" name="zipcode" placeholder="Zip Code"><br>
+				</div>
+			</div>
+			<div class="row">
+				<div class="column">
+					<input type="text" name="Phone" placeholder="Phone *" required="required"><br/>
+				</div>
+			</div>
+			<div class="row">
+				<div class="column">
+					<input type="text" name="Email" placeholder="Email *" required="required"><br/>
+				</div>
+			</div>
+			Are you interested in a single store or multiple locations? * <br/>
+			<div class="row">
+				<div class="column">
+					<input type="radio" name="location" class="radio">Single<br/>
+					<input type="radio" name="locations" class="radio">Multiple<br/>
+				</div>
+			</div>
+			<div class="row">
+				<div class="column">
+					Possible Location or Locations? *<br/>
+					<textarea row="4" cols="50" required="required">
+					</textarea>
+				</div>
+			</div>
+			<div class="row">
+				<div class="column">
+					Projected Date of Opening? *<br>
+					<input type="text" name="date" placeholder="--/--/----" required="required" size="10">
+				</div>
+				<div class="column">
+					What is your approximate net worth? *<br>
+					<input type="text" name="networth" placeholder="$" required="required">
+				</div>
+			</div>
+			Who would operate your franchise on a day-to-day basis? *<br>
+			<div class="row">
+				<div class="column">
+
+					<textarea row="5" cols="50">
+					</textarea>
+				</div>
+			</div>
+				What are you looking for in a franchise opportunity?<br>
+			<div class="row">
+				<div class="column">
+					<textarea row="4" cols="50">
+					</textarea>
+				</div>
+			</div>
+				Tell us about your past or current relevant business experience.<br/>
+			<div class="row">
+				<div class="column">
+					<textarea row="4" cols="50">
+					</textarea>
+				</div>
+			</div>
+
+			<input type="submit" value="Submit" class="submit-button">
 		</form>
 
 	</div>
@@ -281,29 +343,11 @@
 
 <script>
 
-function myFunction() {
-		var x = document.getElementById("myDIV");
-		if (x.style.display === "none") {
-				x.style.display = "block";
-		} else {
-				x.style.display = "none";
-		}
-}
-
-function myFunc() {
-		var x = document.getElementById("myDIV2");
-		if (x.style.display === "none") {
-				x.style.display = "block";
-		} else {
-				x.style.display = "none";
-		}
-}
 
 
-// Get the modal
 var modal = document.getElementById('myModal');
 
-// Get the button that opens the modal
+
 var btn = document.getElementById("form-btn");
 
 var span = document.getElementsByClassName("close")[0];
@@ -320,6 +364,21 @@ window.onclick = function(event) {
 	if (event.target == modal) {
 			modal.style.display = "none";
 	}
+}
+
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
 }
 
 
