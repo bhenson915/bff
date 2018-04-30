@@ -11,7 +11,8 @@
   <link rel="icon" href="img/BFF-Logo.png">
   <title>BFF Asian Grill and Sports Bar</title>
 
-  <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
 </head>
 <body>
 	<?php echo $nav ?>
@@ -44,8 +45,8 @@
 			</td>
 	  </tr>
 	  <tr>
-	    <td><img src="img/icons/phone.png" height="20" width="20"> (817)385-0760</td>
-	    <td><img src="img/icons/phone.png" height="20" width="20"> (817)473-7233</td>
+	    <td><i class="fas fa-phone-volume fa-lg"></i>(817)385-0760</td>
+	    <td><i class="fas fa-phone-volume fa-lg"></i> (817)473-7233</td>
 	  </tr>
 	  <tr>
 	  	<td>

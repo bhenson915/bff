@@ -15,6 +15,7 @@
   <title>BFF Asian Grill and Sports Bar</title>
 
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
 </head>
