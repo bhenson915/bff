@@ -16,6 +16,8 @@
 <body>
 	<?php echo $nav ?>
 
+	<div class="wrapper">
+
 
 	<div class="franchise"><img src="img/BFF-Exterior-Background.jpg" alt="bff, arlington" style="width:100%; opacity: 0.8;"><div class="franchise-text"><h1 class="text-1">Franchise Opportunities</h1></div></div>
 
@@ -270,6 +272,7 @@
 
 
 	</div>
+</div>
 
 
 
