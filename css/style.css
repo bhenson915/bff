@@ -296,7 +296,7 @@ button:hover {
 }
 
 .icon {
-  color: #DAAC27; 
+  color: #DAAC27;
 }
 
 .icon img{
@@ -795,4 +795,188 @@ tbody tr:hover {
 .beer-list-cost {
   font-weight: 700;
 }
->>>>>>> 61fe2cefb31399afcf063c150a4ceb42ff87181f
+/* =====================Locations========================== */
+
+table {
+  width: 100%;
+  height: auto;
+  text-align: left;
+}
+
+table tr {
+  padding: 0 10px;
+}
+
+
+.business-hours  {
+  background: #F5F5F5;
+}
+
+.business-hours .title {
+  font-size: 20px;
+  color: #BBB;
+  text-transform: uppercase;
+  padding-left: 5px;
+  border-left: 4px solid #ffac0c;
+  }
+
+
+.business-hours li {
+  color: #888;
+  line-height: 30px;
+  border-bottom: 1px solid #333;
+  padding: 0 5px;
+  list-style-type: none;
+  }
+
+
+.business-hours li:last-child {
+  border-bottom: none;
+  }
+
+
+.business-hours .opening-hours li.today {
+  color: #ffac0c;
+  }
+
+.pull-right {
+    float: right;
+  }
+
+
+/* =====================End of Locations========================== */
+
+/* =====================Franchise========================== */
+
+
+.franchise  {
+  height: 400px;
+  width: auto;
+  background-repeat: no-repeat;
+  text-align: center;
+  position: relative;
+
+}
+
+.text-1  {
+  text-shadow: #FC0 1px 0 10px;
+  font-size: 55px;
+}
+
+
+.franchise-text  {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.franchise-table tr:last-of-type {
+  font-weight: bold;
+}
+
+
+.franchise-table td, th {
+  padding: 8px 15px;
+}
+
+.franchise-table th {
+  background-color: #E5F5FC;
+}
+
+.franchise-table {
+  font-size: 13px;
+  align: center;
+  border-collapse: collapse;
+  border-bottom: 1px solid #F5F5F5;
+  border-left: 1px solid #F5F5F5;
+  border-right: 1px solid #F5F5F5;
+  margin: 0 auto;
+  width: 1100px;
+}
+
+.franchise-table tr:nth-child(odd) {
+  background-color: #F5F5F5;
+}
+
+caption {
+  font-size: 37px;
+  border-bottom: 1px solid #F5F5F5;
+}
+
+
+.franchise-form {
+  margin: 0 auto;
+}
+
+.toggle-click  {
+  text-align: center;
+  background-color: #DAAC27;
+  color: white;
+  padding: 10px;
+  font-size: 25px;
+  border-bottom: 1px solid white;
+}
+
+.toggle-click:hover {
+  background-color: white;
+  color: #DAAC27;
+  border: 1px solid #DAAC27;
+}
+
+.mystyle {
+    width: 100%;
+    padding: 25px;
+    background-color: coral;
+    color: white;
+    font-size: 25px;
+}
+
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#form-btn  {
+  margin: 30px auto;
+  display: flex;
+  -webkit-display: flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+}
+
+/* =====================End of Franchise========================== */
