@@ -24,7 +24,7 @@
 
     <div class="container">
         <div class="wrapper center">
-            <div class="row">
+            <div class="row gift-card-container">
                 <div class="col">
                     <img src="img/gift-card-25.png" alt="">
                 </div>

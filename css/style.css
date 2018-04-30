@@ -997,3 +997,19 @@ caption {
 }
 
 /* =====================End of Franchise========================== */
+
+
+/* =====================Gift Cards========================== */
+
+.gift-card-container {
+  margin-top: 2em;
+  display: flex;
+  justify-content: space-around;
+}
+
+.gift-card-container col:last-child {
+  margin-right: 0;
+}
+
+/* =====================End of Gift Cards========================== */
+
