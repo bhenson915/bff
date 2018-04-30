@@ -28,7 +28,7 @@
     <div class="mySlides fade">
       <img src="img/homeBanner.jpeg" alt="">
       <div class="text">
-        <h1>FRESH & HEALTHY INGREDIENTS</h1>
+        <h1>FRESH &amp; HEALTHY INGREDIENTS</h1>
         <h3>We're proud to say that every dish is prepared with care. We strive to be the best Asian dining experience</h3>
         <a href="about.html"><button>OUR PHILOSOPHY</button></a>
       </div>
@@ -62,17 +62,17 @@
 
 	      <div class="feature">
 					<h3>MENU</h3>
-	        <a href=""><img src="img/hero1.jpg" alt=""></a>
+	        <a href="menu.php"><img src="img/hero1.jpg" alt=""></a>
 	      </div>
 
 	      <div class="feature">
 					<h3>BEER LIST</h3>
-	        <a href=""><img src="img/hero3.jpg" alt=""></a>
+	        <a href="beer.php"><img src="img/hero3.jpg" alt=""></a>
 	      </div>
 
 	      <div class="feature">
-					<h3>EVENTS</h3>
-	        <a href=""><img src="img/hero4.jpg" alt=""></a>
+					<h3>GIFT CARD</h3>
+	        <a href="giftcard.php"><img src="img/hero4.jpg" alt=""></a>
 	      </div>
 
 	    </div>
@@ -81,9 +81,17 @@
   <div class="container">
     <div class="wrapper">
       <div class="column">
-        <h1>AMAZING MEALS & GREAT ENTERTAINMENT</h1>
+        <h1>AMAZING MEALS &amp; GREAT ENTERTAINMENT</h1>
         <h4>We hope to see you soon!</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At soluta, maxime et est dolores dolore modi cumque laboriosam nam culpa aut, ipsam molestiae voluptates ipsa delectus repudiandae recusandae, aperiam beatae ratione! Iure repudiandae voluptatum at, quis incidunt veniam beatae perspiciatis saepe placeat amet modi labore accusantium sequi facilis excepturi animi cum sint cumque, adipisci ab fugiat maxime velit asperiores inventore! Vel explicabo earum porro voluptatibus natus recusandae, animi nulla voluptate aut quod est enim harum cum, debitis tempore dignissimos fuga.</p>
+        <p>All of our locations near Arlington, Texas serve a great variety of custom cocktails, as well as a large selection of craft beers on tap. We actually have over 100 beers on tap at our Six Flags and Mansfield locations, so you’re sure you find what you like.<br/>
+
+ 					We have drink specials every day with great rotating food specials to match our evolving selection of beers on tap. Whether you’re looking for a place to watch one or every game with a cold brew or looking for a girls’ night out over sushi, make sure to visit us. If you have any questions, give us a call and one of our associates will answer all your questions.<br />
+
+					When we first started BFF, our excitement revolved around creating a place that would elevate Vietnamese Cuisine but still create a place that caters to everyone for every occasion. We just decided to stick to some very basic principles. SIMPLE, HEALTHY, and FRESH. <br/>
+
+					What came forth is a place with an eclectic menu with deep roots, an extensive drink variety, and a large accommodating space that would work for the individual coming in for a quick bite and drink or the large celebrating party. Welcome to a place with the best place for fresh food, friends, family, and fun.
+
+				</p>
       </div>
     </div>
   </div>
