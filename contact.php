@@ -29,24 +29,28 @@
   <div class="container">
     <div class="wrapper">
       <h3>Feedback</h3>
-      <form action="post.php">
+      <form action="post.php" method="post">
       <div class="row">
-        <div class="col-8">
-          <label for="itemDetail">Comments * (400 Max Characters)</label>
-          <textarea name="itemDetail" id="itemDetail" cols="30" rows="5"></textarea>
+        <div class="col">
+          <input type="text" name="firstName" id="firstName" placeholder="First Name">
         </div>
       </div>
-      <hr>
-      <h3>Store Location & Details</h3>
-        <input type="checkbox" name="Arlington[]" value="Arlington"/> Arlington
-        <input type="checkbox" name="Arlington[]" value="Mansfield"/> Mansfield
-
-        <div class="row">
-          <div class="col-6">
-            <label for="date-input">Purchase Date</label>
-            <input type="date" name="purchaseDate" placeholder="mm/dd/yy">
-          </div>
+      <div class="row">
+        <div class="col">
+          <input type="text" name="lastName" id="lastName" placeholder="Last Name">
         </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <input type="email" name="email" id="email" placeholder="Email">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <textarea name="comments" id="comments" cols="30" rows="5" placeholder="Comments"></textarea>
+        </div>
+      </div>
+       <input class="button" type="submit" name="SubmitThis" value="Submit">
       </form>
     </div>
   </div>

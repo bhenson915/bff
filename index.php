@@ -25,19 +25,16 @@
   <div class="slideshow-container">
 
     <div class="mySlides fade">
-      <video width="100%" autoplay muted loop>
-        <source src="video\Restaurant - 1190.mp4" type="video/mp4">
-      </video>
+      <img src="img/homeBanner.jpeg" alt="">
       <div class="text">
         <h1>FRESH & HEALTHY INGREDIENTS</h1>
         <h3>We're proud to say that every dish is prepared with care. We strive to be the best Asian dining experience</h3>
         <a href="about.html"><button>OUR PHILOSOPHY</button></a>
       </div>
     </div>
-
     <div class="mySlides fade">
       <video width="100%" autoplay muted loop>
-        <source src="video\Sushi - 11291.mp4" type="video/mp4">
+      <source src="video\Sushi - 11291.mp4" type="video/mp4">
       </video>
     </div>
 

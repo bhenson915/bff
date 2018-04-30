@@ -1,6 +1,19 @@
 <?php
 
-$nav = "<nav class='navigation'>
+$nav = "
+<div class='nav-top'>
+    <div class='cta-gift-cards'>
+        <a href='giftcards.php'>Gift cards are now available</a>
+    </div>
+    <div class='contact-links'>
+        <i class='fab fa-facebook-square fa-2x'></i>
+        <i class='fab fa-twitter-square fa-2x'></i>
+        <i class='fab fa-instagram fa-2x'></i>
+        |
+        <a href='tel: 817-385-0760'>(817) 385-0760</a>
+    </div>
+</div>
+<nav class='navigation'>
   <ul class='nav-list'>
     <li class='link'><a href='index.php'>HOME</a></li>
     <li class='link'><a href='menu.php'>OUR MENU</a></li>
@@ -8,7 +21,7 @@ $nav = "<nav class='navigation'>
   </ul>
   <a href='index.php'><img class='logo' src='img/BFF-Logo.png' alt='BFF Asian Bar and Grill logo'></a>
   <ul class='nav-list'>
-    <li class='link'><a href='about.php'>ABOUT US</a></li>
+    <li class='link'><a href='franchise.php'>FRANCHISE</a></li>
     <li class='link'><a href='locations.php'>LOCATIONS</a></li>
     <li class='link'><a href='contact.php'>CONTACT</a></li>
   </ul>

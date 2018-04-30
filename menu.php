@@ -36,7 +36,7 @@
 
 		  <div class="h1-background"><h1>APPETIZERS</h1></div>
 		  <div class="hero">
-		  	<img src="img/" alt="">
+		  	<img src="img\menu\BFF-Pot-Sticker-1024x749.jpg" alt="">
 		  </div>
 		  <p>
 				<h3>1A. CALAMARI <span class="best">(Best Seller)</span> 10.95</h3>
@@ -94,6 +94,9 @@
 
 		<div id="Paris" class="tabcontent">
 		  <div class="h1-background"><h1>ROLLS</h1></div>
+		  <div class="hero">
+			<img src="img\menu\BFF-Rolls-1024x682.jpg" alt="">
+		</div>
 		  <p>
 				<h3>12A. VIETNAMESE FRIED EGG ROLLS 3.95</h3>
 
@@ -130,6 +133,9 @@
 
 		<div id="Tokyo" class="tabcontent">
 		  <div class="h1-background"><h1>PHO NOODLES</h1></div>
+		  <div class="hero">
+			  <img src="img\menu\BFF-Chicken-Pho-1024x683.jpg" alt="">
+		  </div>
 		  <p>
 
 				<h2>BEEF PHO 10.95</h2>
@@ -290,6 +296,9 @@
 		<div id="Moscow" class="tabcontent">
 
 		<div class="h1-background"><h1>VERMICELLI</h1></div>
+		<div class="hero">
+			<img src="img\menu\BFF-Vermicelli-1024x683.jpg" alt="">
+		</div>
 
 			<p>
 				<h2>COOL NOODLES</h2>
@@ -348,6 +357,9 @@
 		<div id="Seoul" class="tabcontent">
 
 			<div class="h1-background"><h1>RICE PLATES</h1></div>
+			<div class="hero">
+				<img src="img\menu\BFF-Combination-Fried-Rice-1024x751.jpg" alt="">
+			</div>
 				<p>
 					If you’re not in the mood for our delicious soup entrees, try one of our fabulous rice plates. You can choose white or brown rice served with tomatoes, cucumbers, kimchi, pickled daikon, and carrots. Don’t forget to order a fried egg with your plate!
 
@@ -483,6 +495,9 @@
 		<div id="Beijing" class="tabcontent">
 
 			<div class="h1-background"><h1>SPECIALTY</h1></div>
+			<div class="hero">
+				<img src="img\menu\BFF-Orange-Chicken-1024x647.jpg" alt="">
+			</div>
 				<p>
 					<h3>1SP. THE CHUNKY BEEF STEAK 13.95</h3>
 
@@ -564,6 +579,9 @@
 		<div id="Jerusalem" class="tabcontent">
 
 			<div class="h1-background"><h1>SUSHI &amp; NIGIRI</h1></div>
+			<div class="hero">
+				<img src="img\menu\BFF-Raindow-Roll-1024x647.jpg" alt="">
+			</div>
 
 			All of our crab meat is imitation crab meat.
 
@@ -780,6 +798,9 @@
 		<div id="Dublin" class="tabcontent">
 
 			<div class="h1-background"><h1>BANH MI</h1></div>
+			<div class="hero">
+				<img src="img\menu\BFF-Banh-Mi-1024x514.jpg" alt="">
+			</div>
 
 			Our Banh Mi  or French bread grilled sandwiches, are served with pickled daikon, carrots, cucumbers, cilantro, jalapeños, house mayonnaise, peanuts and tuna fish sauce or soy sauce on the side. <span class="bold">Add French Fries to your order for 1.95</span>
 
@@ -811,6 +832,9 @@
 		<div id="Athens" class="tabcontent">
 
 			<div class="h1-background"><h1>SALAD ENTREES</h1></div>
+			<div class="hero">
+				<img src="img\menu\BFF-Salad-1024x647.jpg" alt="">
+			</div>
 				<p>
 					Our salad entrées come with a mix of iceberg and romaine lettuce, grape tomatoes, carrots, green bell peppers, eggs, avocado and homemade pickled jalapeños with French bread.<br/>
 
