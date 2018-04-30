@@ -1,18 +1,21 @@
 <?php
 
 $nav = "
-<div class='nav-top'>
+<div class='nav-wrapper center'>
+  <div class='nav-top'>
     <div class='cta-gift-cards'>
-        <a href='giftcards.php'>Gift cards are now available</a>
+      <a href='giftcard.php'><i class='fas fa-credit-card fa-lg fa-fw'></i> Purchase gift cards >></a>
     </div>
     <div class='contact-links'>
-        <i class='fab fa-facebook-square fa-2x'></i>
-        <i class='fab fa-twitter-square fa-2x'></i>
-        <i class='fab fa-instagram fa-2x'></i>
-        |
-        <a href='tel: 817-385-0760'>(817) 385-0760</a>
+        <a href='giftcards.php'><i class='fab fa-facebook-square fa-lg fa-fw'></i></a>
+        <a href='giftcards.php'><i class='fab fa-twitter-square fa-lg fa-fw'></i></a>
+        <a href='giftcards.php'><i class='fab fa-instagram fa-lg fa-fw'></i></a>
+        
+        <a href='tel: 817-385-0760'>|  (817) 385-0760</a>
     </div>
+  </div>
 </div>
+
 <nav class='navigation'>
   <ul class='nav-list'>
     <li class='link'><a href='index.php'>HOME</a></li>

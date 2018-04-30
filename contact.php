@@ -12,6 +12,9 @@
   <title>BFF Asian Grill and Sports Bar</title>
 
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+
+
 </head>
 <body>
 	<?php echo $nav ?>
