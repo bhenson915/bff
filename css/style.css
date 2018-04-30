@@ -746,6 +746,7 @@ thead {
   border: 1px solid #DAAC27;
 }
 
+<<<<<<< HEAD
 thead tr td {
   padding: 1em;
   border: 1px solid #DAAC27;
@@ -762,3 +763,36 @@ tbody tr:hover {
 
 
 
+=======
+
+/* =========Beer list =========*/
+
+.beer-list-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 1em 0;
+}
+
+.beer-image {
+  margin-right: 2em;
+}
+
+.beer-list-title{
+  display: flex;
+  align-items: baseline;
+}
+
+.caption {
+  margin-left: 1em;
+}
+
+.beer-list-title h3{
+  margin: 0;
+}
+
+.beer-list-cost {
+  font-weight: 700;
+}
+>>>>>>> 61fe2cefb31399afcf063c150a4ceb42ff87181f
