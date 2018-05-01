@@ -19,7 +19,7 @@ $nav = "
   </div>
 </div>
 
-<nav class='navigation' onclick='myFunction(this)''>
+<nav class='navigation'>
   <ul class='nav-list'>
     <li class='link'><a href='index.php'>HOME</a></li>
     <li class='link'><a href='menu.php'>OUR MENU</a></li>

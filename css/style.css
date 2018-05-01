@@ -291,32 +291,6 @@ button:hover {
   border-bottom: 2px solid #DAAC27;
 }
 
-@media screen and (max-width: 480px) {
-  .navigation {
-    display: inline-block;
-    cursor: pointer;
-  }
-  .link {
-    width: 35px;
-    height: 5px;
-    background-color: #333;
-    margin: 6px 0;
-    transition: 0.4s;
-}
-
-.change .link {
-    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-    transform: rotate(-45deg) translate(-9px, 6px);
-}
-
-.change .link {opacity: 0;}
-
-.change .link {
-    -webkit-transform: rotate(45deg) translate(-8px, -8px);
-    transform: rotate(45deg) translate(-8px, -8px);
-}
-}
-
 
 
 .navigation a {
