@@ -21,7 +21,7 @@
 	<div class="wrapper">
 
 
-	<div class="franchise"><img src="img/BFF-Exterior-Background.jpg" alt="bff, arlington"  id ="franchise-img" style="width:100%; opacity: 0.8;"><div class="franchise-text"><span class="text-1">Franchise Opportunities</span></div></div>
+	<div class="franchise"><img src="img/BFF-Exterior-Background.jpg" alt="bff, arlington"  id ="franchise-img" style="width:100%; opacity: 0.8;"></div>
 
 <div class="onclick">
 

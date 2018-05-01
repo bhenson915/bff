@@ -30,7 +30,7 @@
 					<ul style="list-style-type: none">
 						<li>MONDAY</li>
 						<li>"Big Beer Monday"</li>
-						<li>Enjoy your favorite beer a <strong>BIGGER GLASS</strong> today for the same price!</li>
+						<li>Enjoy your favorite beer in a <strong>BIGGER GLASS</strong> today for the same price!</li>
 					</ul>
 				</div>
 				<div class="day">
@@ -64,8 +64,8 @@
 				<div class="day">
 					<ul style="list-style-type: none">
 						<li>EVERYDAY SPECIALS</li>
-						<li></li>
-						<li><strong>"$3 Crown &amp; Down"</strong></li>
+						<li>3-7PM : <strong>$4 HOUSE WINES, $6 MARTINIS &amp; $8 BEER FLIGHTS</strong></li>
+						<li>Night Happy Hour starts from 9-11PM featuring <strong>$3 Crown &amp; Down</strong></li>
 					</ul>
 				</div>
 			</div>
