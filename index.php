@@ -30,17 +30,19 @@
       <div class="text">
         <h1>FRESH &amp; HEALTHY INGREDIENTS</h1>
         <h3>We're proud to say that every dish is prepared with care. We strive to be the best Asian dining experience</h3>
-        <a href="about.html"><button>OUR PHILOSOPHY</button></a>
+        <a href="menu.php"><button>OUR MENU</button></a>
       </div>
     </div>
     <div class="mySlides fade">
       <video width="100%" autoplay muted loop>
-      <source src="video\Sushi - 11291.mp4" type="video/mp4">
+      <source src="video\beer.mp4" type="video/mp4">
       </video>
     </div>
 
     <div class="mySlides fade">
-      <img src="img/hero3.jpg" style="width:100%">
+      <video width="100%" autoplay muted loop>
+        <source src="video\plate delivery.mp4" type="video/mp4">
+      </video>
     </div>
 
     <!-- Next and previous buttons -->
@@ -56,7 +58,8 @@
     <span class="dot" onclick="currentSlide(3)"></span>
   </div>
 
-  <main class="feature-container">
+  <main class="container">
+    <div class="wrapper text-center">
 	    <h1>RESTAURANT HAPPENINGS</h1>
 	    <div class="feature-links">
 
@@ -72,10 +75,11 @@
 
 	      <div class="feature">
 					<h3>GIFT CARD</h3>
-	        <a href="giftcard.php"><img src="img/hero4.jpg" alt=""></a>
+	        <a href="giftcard.php"><img src="img/gift-card-25.png" alt=""></a>
 	      </div>
 
-	    </div>
+      </div>
+    </div>
   </main>
 
   <div class="container">

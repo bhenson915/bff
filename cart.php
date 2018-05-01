@@ -1,4 +1,74 @@
-<div class="container" style="width: 65%">
+<?php
+    session_start();
+    $database_name = "Product_details";
+    $con = mysqli_connect("localhost","root","",$database_name);
+
+    if (isset($_POST["add"])){
+        if (isset($_SESSION["cart"])){
+            $item_array_id = array_column($_SESSION["cart"],"product_id");
+            if (!in_array($_GET["id"],$item_array_id)){
+                $count = count($_SESSION["cart"]);
+                $item_array = array(
+                    'product_id' => $_GET["id"],
+                    'item_name' => $_POST["hidden_name"],
+                    'product_price' => $_POST["hidden_price"],
+                    'item_quantity' => $_POST["quantity"],
+                );
+                $_SESSION["cart"][$count] = $item_array;
+                echo '<script>window.location="Cart.php"</script>';
+            }else{
+                echo '<script>alert("Product is already Added to Cart")</script>';
+                echo '<script>window.location="Cart.php"</script>';
+            }
+        }else{
+            $item_array = array(
+                'product_id' => $_GET["id"],
+                'item_name' => $_POST["hidden_name"],
+                'product_price' => $_POST["hidden_price"],
+                'item_quantity' => $_POST["quantity"],
+            );
+            $_SESSION["cart"][0] = $item_array;
+        }
+    }
+
+    if (isset($_GET["action"])){
+        if ($_GET["action"] == "delete"){
+            foreach ($_SESSION["cart"] as $keys => $value){
+                if ($value["product_id"] == $_GET["id"]){
+                    unset($_SESSION["cart"][$keys]);
+                    echo '<script>alert("Product has been Removed...!")</script>';
+                    echo '<script>window.location="Cart.php"</script>';
+                }
+            }
+        }
+    }
+?>
+
+<?php
+	include ('shared.inc.php');
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content=".">
+  <meta name="keywords" content=" BFF, Asian, Restaurants, Restaurant, Chinese Food, Chinese Restaurant, Asian Food, Bar, Sports Bar, Arlington, Texas, Arlington Texas.">
+
+
+  <link rel="icon" href="img/BFF-Logo.png">
+  <title>BFF Asian Grill and Sports Bar</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+</head>
+<body>
+	<?php echo $nav ?>
+
+    <div class="container" style="width: 65%">
     <h2>Shopping Cart</h2>
     <?php
         $query = "SELECT * FROM product ORDER BY id ASC ";
@@ -72,3 +142,10 @@
     </div>
 
 </div>
+
+  <?php echo $footer ?>
+
+  <script src="js/main.js"></script>
+	
+</body>
+</html>
