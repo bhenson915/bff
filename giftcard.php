@@ -23,23 +23,28 @@
 	<?php echo $nav ?>
 
     <div class="container">
-        <div class="wrapper center">
-<<<<<<< HEAD
-            <div class="row">
-=======
+        <div class="wrapper center text-center">
+            <h1>Select a gift card amount</h1>
             <div class="row gift-card-container">
->>>>>>> 0922062dacf2a1f1119a0da303fa99d2c75bbdd4
                 <div class="col">
                     <img src="img/gift-card-25.png" alt="">
+                    <p>A great choice for a gift for family, friends, or acquaintances.</p>
+                    <button onclick="location.href='cart.php'">Add to cart</button>
                 </div>
                 <div class="col">
                     <img src="img/gift-card-50.png" alt="">
+                    <p>A great choice for a gift for family, friends, or acquaintances.</p>
+                    <button onclick="location.href='cart.php'">Add to cart</button>
                 </div>
                 <div class="col">
                     <img src="img/gift-card-75.png" alt="">
+                    <p>A great choice for a gift for family, friends, or acquaintances.</p>
+                    <button onclick="location.href='cart.php'">Add to cart</button>
                 </div>
                 <div class="col">
                     <img src="img/gift-card-100.png" alt="">
+                    <p>A great choice for a gift for family, friends, or acquaintances.</p>
+                    <button onclick="location.href='cart.php'">Add to cart</button>
                 </div>
             </div>
         </div>

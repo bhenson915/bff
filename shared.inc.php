@@ -6,16 +6,9 @@ $nav = "
       <a href='giftcard.php'><i class='fas fa-credit-card fa-lg fa-fw'></i> Purchase gift cards >></a>
     </div>
     <div class='contact-links'>
-<<<<<<< HEAD
-        <a href='giftcards.php'><i class='fab fa-facebook-square fa-lg fa-fw'></i></a>
-        <a href='giftcards.php'><i class='fab fa-twitter-square fa-lg fa-fw'></i></a>
-        <a href='giftcards.php'><i class='fab fa-instagram fa-lg fa-fw'></i></a>
-
-=======
         <a href='https://www.facebook.com/BFFnewlocation/'><i class='fab fa-facebook-square fa-lg fa-fw'></i></a>
         <a href='https://www.instagram.com/explore/locations/465609885/bff-asian-grill-sports-bar-n-arlington/'><i class='fab fa-instagram fa-lg fa-fw'></i></a>
         
->>>>>>> c7e94a15a531d541b210cc820d4dde2f0bcb03a7
         <a href='tel: 817-385-0760'>|  (817) 385-0760</a>
     </div>
   </div>
