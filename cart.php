@@ -97,7 +97,7 @@
     </div>
 </div>
     
-    <button class="checkout">Checkout</button>
+    <button onclick="location.href='checkout.php'" class="checkout">Checkout</button>
 
 </div>
     </div>

@@ -20,13 +20,14 @@ $nav = "
 </div>
 
 <nav class='navigation'>
-  <ul class='nav-list'>
+<a href='javascript:void(0);' style='font-size:15px;' id='icon' class='icon' onclick='navChange()'>&#9776;</a>
+  <ul class='nav-list' id='navigation'>
     <li class='link'><a href='index.php'>HOME</a></li>
     <li class='link'><a href='menu.php'>OUR MENU</a></li>
     <li class='link'><a href='beer.php'>SPECIALS</a></li>
-  </ul>
-  <a href='index.php'><img class='logo' src='img/BFF-Logo.png' alt='BFF Asian Bar and Grill logo'></a>
-  <ul class='nav-list'>
+  
+    <li><a href='index.php'><img class='logo' src='img/BFF-Logo.png' alt='BFF Asian Bar and Grill logo'></a></li>
+  
     <li class='link'><a href='franchise.php'>FRANCHISE</a></li>
     <li class='link'><a href='locations.php'>LOCATIONS</a></li>
     <li class='link'><a href='contact.php'>CONTACT</a></li>

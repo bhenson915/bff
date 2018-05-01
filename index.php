@@ -20,7 +20,7 @@
 
 </head>
 <body>
-	<?php echo $nav ?>
+  <?php echo $nav ?>
 
   <!-- Slideshow container -->
   <div class="slideshow-container">
@@ -28,9 +28,9 @@
     <div class="mySlides fade">
       <img src="img/homeBanner.jpeg" alt="">
       <div class="text">
-        <h1>FRESH &amp; HEALTHY INGREDIENTS</h1>
-        <h3>We're proud to say that every dish is prepared with care. We strive to be the best Asian dining experience</h3>
-        <a href="menu.php"><button>OUR MENU</button></a>
+          <h1>FRESH &amp; HEALTHY INGREDIENTS</h1>
+          <h3>We're proud to say that every dish is prepared with care. We strive to be the best Asian dining experience</h3>
+          <a href="menu.php"><button>OUR MENU</button></a>
       </div>
     </div>
     <div class="mySlides fade">

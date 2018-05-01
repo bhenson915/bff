@@ -40,20 +40,42 @@ h1, h2, h3, h4 {
     line-height: 1.5rem;
   }
 
-.container {
-  margin: 0;
-  max-width: 100%;
-  width: 100%;
-  padding: 0;
-}
+  @media screen and (max-width: 800px){
+    h1 {
+      font-size: 1.618em;
+    }
 
-.wrapper {
-  margin: 0 auto;
-  padding: 0;
-  width: 80%;
-  display: flex;
-  flex-direction: column;
-}
+    h2 {
+      font-size: 1.2em;
+    }
+
+    h3 {
+      font-size: 1em;
+    }
+  }
+  
+
+  .container {
+    margin: 0;
+    max-width: 100%;
+    width: 100%;
+    padding: 0;
+  }
+
+
+  .wrapper {
+    margin: 0 auto;
+    padding: 0;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media screen and (max-width: 600px) {
+    .wrapper {
+      width: 95%;
+    }
+  }
 
 .center {
   margin: 0 auto;
@@ -282,6 +304,7 @@ button:hover {
 
 .navigation {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   font-weight: 400;
@@ -304,6 +327,7 @@ button:hover {
 .nav-list {
   display: flex;
   list-style-type: none;
+  align-items: center;
 }
 
 .link {
@@ -312,6 +336,10 @@ button:hover {
 
 .icon {
   color: #DAAC27;
+}
+
+#icon {
+  align-self: flex-end;
 }
 
 .icon img{
@@ -324,6 +352,7 @@ button:hover {
   align-items: center;
   width: 80%;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .nav-wrapper {
@@ -331,6 +360,7 @@ button:hover {
   background: #DAAC27;
   color: #ffffff;
   padding: .5em;
+  box-sizing: border-box;
 }
 
 .contact-links {
@@ -347,6 +377,40 @@ button:hover {
   text-shadow: 2px 2px 4px #000000;
 }
 
+.nav-list .icon {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .nav-list {
+    display:none;
+  }
+
+  .nav-list ul li:not(:first-child) {display: none;}
+  .nav-list ul li .icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nav-list.responsive {
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .nav-list.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .nav-list.responsive ul li {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
 
 /*=========== End of Navigation ===========*/
 
@@ -367,6 +431,20 @@ button:hover {
     display: none;
     max-height: 700px;
     overflow: hidden;
+}
+
+@media only screen and (max-width:1000px){
+  .mySlides img, video {
+    display: none
+  }
+  
+  .mySlides {
+    background: url('../img/homeBanner.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60vh;
+  }
 }
 
 .mySlides video {
@@ -404,8 +482,18 @@ button:hover {
   top: 50%;
   transform: translateY(-150px);
   max-width: 40%;
-  height: 100%;
+  max-height: 700px;
   text-align: left;
+}
+
+@media screen and (max-width: 1000px) {
+  .text {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 2em;
+    text-align: center;
+  }
 }
 
 /* Number text (1/3 etc) */
@@ -465,7 +553,12 @@ button:hover {
   justify-content: space-between;
   margin-top: 4em;
   box-sizing: border-box;
+}
 
+@media only screen and (max-width: 800px){
+  .feature-links {
+    flex-direction: column;
+  }
 }
 
 .feature {
@@ -548,6 +641,7 @@ footer {
   -webkit-align-items: flex-start;
 }
 
+
 .footer-container {
   box-sizing: border-box;
   margin: 0;
@@ -559,6 +653,12 @@ footer {
 
   flex-direction: row;
   -webkit-flex-direction: row;
+}
+
+@media only screen and (max-width: 800px){
+  .footer-container {
+    flex-direction: column;
+  }
 }
 
 .footer-links {
@@ -1450,5 +1550,92 @@ caption {
     width: 40%;
   }
 }
+
+/* Checkout Page Content Begins */
+
+.orderSummary{
+  text-align: left;
+  width:100%;
+}
+
+.orderSummary h4{
+  margin-bottom: 1em;
+}
+
+.subTitle{
+  color:#666666;
+  font-size: 12px;
+}
+
+.checkout-card-wrapper-box {
+  background: #eeeeee;
+  min-height: 400px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.formMain {
+  display: flex;
+  flex-direction: row;
+}
+
+.billing,
+.payment {
+  margin: 5em 1em;
+}
+
+.checkoutForm input[type=text],
+.checkoutForm input[type=email] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.billing-flex {
+  display: flex;
+}
+
+.billing-flex input[type=text] {
+  width: 50%;
+
+}
+
+.billing-flexRight {
+  margin-right: 1em;
+}
+
+.payment {
+  border-left: 1px solid black;
+  padding-left: 1em;
+}
+
+span.price {
+float: right;
+
+}
+
+/* Responsive layout */
+
+@media (max-width: 800px) {
+  .formMain {
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .payment{
+      border-left:none;
+      margin-left: none;
+  }
+}
+
 
 /* =====================End of Gift Cards========================== */
