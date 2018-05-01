@@ -498,7 +498,7 @@
 
 			<div class="h1-background"><h1>SPECIALTY</h1></div>
 			<div class="hero">
-				<img src="img\menu\BFF-Orange-Chicken-1024x647.jpg" alt="">
+				<img src="img\menu\five-spice.jpg" alt="">
 			</div>
 				<p>
 					<h3>1SP. THE CHUNKY BEEF STEAK 13.95</h3>
@@ -582,7 +582,7 @@
 
 			<div class="h1-background"><h1>SUSHI &amp; NIGIRI</h1></div>
 			<div class="hero">
-				<img src="img\menu\BFF-Raindow-Roll-1024x647.jpg" alt="">
+				<img src="img\menu\dragon.jpg" alt="">
 			</div>
 
 			All of our crab meat is imitation crab meat.
