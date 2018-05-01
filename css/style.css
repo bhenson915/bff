@@ -300,12 +300,12 @@ button:hover {
 }
 
 .icon {
-  color: #DAAC27; 
+  color: #DAAC27;
 }
 
 .icon img{
   height: 50px;
-} 
+}
 
 .nav-top {
   display: flex;
@@ -329,13 +329,22 @@ button:hover {
 }
 
 .contact-links a:hover {
-  text-shadow: 2px 2px 4px #000000; 
+  text-shadow: 2px 2px 4px #000000;
+<<<<<<< HEAD
 }
 
 .cta-gift-cards a:hover {
-  text-shadow: 2px 2px 4px #000000; 
+  text-shadow: 2px 2px 4px #000000;
 }
 
+=======
+}
+
+.cta-gift-cards a:hover {
+  text-shadow: 2px 2px 4px #000000;
+}
+
+>>>>>>> 0922062dacf2a1f1119a0da303fa99d2c75bbdd4
 
 /*=========== End of Navigation ===========*/
 
@@ -780,6 +789,7 @@ thead tr td {
 tr td {
   padding: 1em;
 <<<<<<< HEAD
+<<<<<<< HEAD
   border: 1px solid #666666;
 }
 
@@ -791,6 +801,10 @@ tr td {
 }
 
 >>>>>>> 4b083d6e66ca64047f4b21de571cc819db4d5547
+=======
+}
+
+>>>>>>> 0922062dacf2a1f1119a0da303fa99d2c75bbdd4
 /* =========Beer list =========*/
 
 .beer-list-container {
@@ -1116,6 +1130,127 @@ caption {
 
 
 /* =====================End of Franchise========================== */
+
+/* ===================== Drinks Specials ========================== */
+.box3 {
+  display: flex;
+  -webkit-display: flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  justify-content: center;
+  -webkit-justify-content: center;
+  align-items: center;
+  -webkit-align-items: center;
+  text-align: center;
+  -webkit-text-align: center;
+
+}
+
+.day ul li {
+  line-height: 2em;
+}
+
+.day ul li:first-of-type {
+  font-weight: bold;
+  color: #DAAC27;
+  padding-top: 10px;
+  font-size: 1.4em;
+}
+
+.day ul li:last-of-type {
+  border-bottom: 0.5px dashed #DAAC27;
+}
+
+.day ul li:nth-of-type(2):hover {
+  color: #DAAC27;
+}
+
+.day ul {
+  width: 600px;
+  height: auto;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    .day ul {
+      width: auto;
+    }
+}
+
+.beer-foam {
+  background-image: url("../img/beer-froth.png");
+  height: 500px;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.beer-all-day-everyday {
+  font-weight: bold;
+  color: #DAAC27;
+  padding-top: 10px;
+  font-size: 1.4em;
+}
+
+.beer-all-day-everyday:hover {
+  color: white;
+  text-shadow: 2px 2px 4px #DAAC27;
+}
+
+.beer-now  {
+  background-image: url("../img/untappd.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 100px;
+  width: 300px;
+}
+
+.beer-now:hover {
+  box-shadow: 2px 2px 4px #DAAC27;
+  cursor: pointer;
+}
+
+
+
+.click-beer {
+  display: flex;
+  -webkit-display: flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  justify-content: center;
+  -webkit-justify-content: center;
+  align-items: center;
+  -webkit-align-items: center;
+
+}
+
+
+
+
+/* ===================== End of Drinks Specials ========================== */
+
+
+
+
 =======
 /* =====================End of Franchise========================== */
+<<<<<<< HEAD
 >>>>>>> 4b083d6e66ca64047f4b21de571cc819db4d5547
+=======
+
+
+/* =====================Gift Cards========================== */
+
+.gift-card-container {
+  margin-top: 2em;
+  display: flex;
+  justify-content: space-around;
+}
+
+.gift-card-container col:last-child {
+  margin-right: 0;
+}
+
+/* =====================End of Gift Cards========================== */
+
+>>>>>>> 0922062dacf2a1f1119a0da303fa99d2c75bbdd4
