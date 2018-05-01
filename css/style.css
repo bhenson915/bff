@@ -340,6 +340,13 @@ button:hover {
 
 #icon {
   align-self: flex-end;
+  display: none;
+}
+
+@media only screen and (max-width: 800px) {
+  #icon {
+    display: block;
+  }
 }
 
 .icon img{
@@ -381,7 +388,7 @@ button:hover {
   display: block;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .nav-list {
     display:none;
   }
@@ -393,7 +400,7 @@ button:hover {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .nav-list.responsive {
     position: relative;
     display:flex;
@@ -433,7 +440,7 @@ button:hover {
     overflow: hidden;
 }
 
-@media only screen and (max-width:1000px){
+@media only screen and (max-width:800px){
   .mySlides img, video {
     display: none
   }
@@ -938,7 +945,7 @@ tr td {
 @media only screen and (min-width: 320px) and (max-width: 768px) {
     .location-table {
       width: auto;
-      height: auto%;
+      height: auto;
     }
 }
 
@@ -1039,7 +1046,7 @@ table tr {
 
 .franchise-table {
   font-size: 13px;
-  align: center;
+  text-align: center;
   border-collapse: collapse;
   border-bottom: 1px solid #F5F5F5;
   border-left: 1px solid #F5F5F5;
@@ -1639,3 +1646,42 @@ float: right;
 
 
 /* =====================End of Gift Cards========================== */
+
+/* =====================Review Section ============================*/
+
+.Review {
+  margin-top: 3em;
+}
+
+.Review-details {
+  align-items: center;
+}
+.Review-details p {
+  margin: 0;
+}
+.Review-details img {
+  width: 54px;
+  height: 54px;
+  margin-right: 24px;
+  margin-right: 1.5rem;
+  border-radius: 50%;
+}
+.Review-author {
+  font-weight: bold;
+}
+.Review-date {
+  color: #b6c2cc;
+}
+.Review-star {
+  color: #B6C2CC;
+}
+.Review-star--active {
+  color: #FF7867;
+}
+.Review-body .Review-title + p {
+  margin-top: 0;
+}
+.Review-body img {
+  margin: 12px 0px;
+  margin: 0.75rem 0rem;
+}

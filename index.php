@@ -7,7 +7,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="description" content=".">
+  <meta name="description" content="BFF Asian Grill and Bar now has two locations around the Arlington and Mansfield area. Whether you're looking for a local watering hole or a place to have a meeting with your business associates for lunch, make sure to drop by and see us.">
   <meta name="keywords" content=" BFF, Asian, Restaurants, Restaurant, Chinese Food, Chinese Restaurant, Asian Food, Bar, Sports Bar, Arlington, Texas, Arlington Texas.">
 
 
@@ -59,7 +59,7 @@
   </div>
 
   <main class="container">
-    <div class="wrapper text-center">
+    <div class="wrapper center text-center">
 	    <h1>RESTAURANT HAPPENINGS</h1>
 	    <div class="feature-links">
 
@@ -96,6 +96,59 @@
     </div>
   </div>
 
+<div class="wrapper center">
+  <div class="Review">
+    <div class="Review-details">
+      <img src="https://randomuser.me/api/portraits/med/men/29.jpg">
+      <div class="Review-meta">
+        <p class="Review-author">Zachary Richardson</p>
+        <p class="Review-date">3 days ago</p>
+        <div class="Review-rating">
+          <span class="Review-star Review-star--active">&#9733;</span>
+          <span class="Review-star Review-star--active">&#9733;</span>
+          <span class="Review-star Review-star--active">&#9733;</span>
+          <span class="Review-star Review-star--active">&#9733;</span>
+          <span class="Review-star Review-star--active">&#9733;</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="wrapper center">
+  <div class="Review-body">
+    <p>Been coming to this place since it opened.  The food is fantastic. Fresh. It has color and life. I highly recommend the most unique Orange Chicken I have ever tasted. The bar is STOCKED.  The service is impeccable and always friendly.  My one and only beef is that this is NOT a place to have a conversation when it's busy and it does get busy on certain nights.  Other than that, come and enjoy.</p>
+  </div>
+</div>
+
+<div class="wrapper center">
+  <div class="Review">
+    <div class="Review-details">
+      <img src="https://randomuser.me/api/portraits/med/women/29.jpg">
+      <div class="Review-meta">
+        <p class="Review-author">Morgan Wallace</p>
+        <p class="Review-date">13 days ago</p>
+        <div class="Review-rating">
+          <span class="Review-star Review-star--active">&#9733;</span>
+          <span class="Review-star Review-star--active">&#9733;</span>
+          <span class="Review-star Review-star--active">&#9733;</span>
+          <span class="Review-star Review-star--active">&#9733;</span>
+          <span class="Review-star">&#9733;</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="wrapper center">
+  <div class="Review-body">
+    <p>Definitely coming back!
+Love the ceiling/feel, good wait staff, solid food & drinks!
+Got the Calamari Appetizer - spicy, delicious, legit, must try.
+Got Philadelphia, Sumo & Amazing Rolls between me & the husband = super tasty & filling.
+Good drinks - coming back to try more items on the menu! (Which is also very well laid out)</p>
+  </div>
+</div>
+
+
   <?php echo $footer ?>
 
   <script src="js/main.js"></script>
@@ -114,6 +167,37 @@
 			evt.currentTarget.className += " active";
 	}
 	</script>
-	<script src="js/main.js" charset="utf-8"></script>
+  <script src="js/main.js" charset="utf-8"></script>
+  
+  <script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+  
+  // Next/previous controls
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  // Thumbnail image controls
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1;}
+    if (n < 1) {slideIndex = slides.length;}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+  }
+  </script>
 </body>
 </html>

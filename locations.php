@@ -7,6 +7,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="description" content="BFF Asian Grill and Bar now has two locations around the Arlington and Mansfield area. Whether you're looking for a local watering hole or a place to have a meeting with your business associates for lunch, make sure to drop by and see us.">
+  <meta name="keywords" content=" BFF, Asian, Restaurants, Restaurant, Chinese Food, Chinese Restaurant, Asian Food, Bar, Sports Bar, Arlington, Texas, Arlington Texas.">
 
   <link rel="icon" href="img/BFF-Logo.png">
   <title>BFF Asian Grill and Sports Bar</title>
