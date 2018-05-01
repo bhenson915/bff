@@ -12,14 +12,14 @@ $nav = "
 
 >>>>>>> c7e94a15a531d541b210cc820d4dde2f0bcb03a7
 =======
-        
+
 >>>>>>> 7b7135eb2bd71b6840be1848253df8fbd2c51ccb
         <a href='tel: 817-385-0760'>|  (817) 385-0760</a>
     </div>
   </div>
 </div>
 
-<nav class='navigation'>
+<nav class='navigation' onclick='myFunction(this)''>
   <ul class='nav-list'>
     <li class='link'><a href='index.php'>HOME</a></li>
     <li class='link'><a href='menu.php'>OUR MENU</a></li>
